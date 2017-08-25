@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+		<servlet-name>AServlet</servlet-name>
+		<servlet-class>day09.AServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>HelloServlet</servlet-name>
+		<servlet-class>day09.HelloServlet</servlet-class>
+	</servlet>
+	
+	
+	
+	<servlet-mapping>
+		<servlet-name>AServlet</servlet-name>
+		<url-pattern>/AServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet-mapping>
+		<servlet-name>HelloServlet</servlet-name>
+		<url-pattern>/HelloServlet</url-pattern>
+	</servlet-mapping>
+</web-app>
